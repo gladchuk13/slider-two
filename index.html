@@ -1,0 +1,179 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slide">
+            <img class="slide" src="./camp nou1.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img class="slide" src="./camp nou2.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img class="slide" src="./camp nou3.jpeg" alt="">
+        </div>
+    </div>
+    <button id="prev" type="button">Previous</button>
+    <button id="next" type="button">Next</button>
+    <script src="./script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title></title>
+</head>
+
+<body>
+    
+    <div class="slider-container">
+        <img src="./guitar.png" class="prev" id="prev">
+        <div class="slider">
+            <div class="slide">
+                <div class="big-box">
+                    <div class="box1">
+                            <div class="the-best">
+                            <p class="the-best-text">ASTROWORLD</p>
+                            <img src="./astroworld.jpeg" alt="" class="the-best-photo">
+                            <a target="_blank" href="https://open.spotify.com/album/41GuZcammIkupMPKH2OJ6I" class="the-best-album-link">Listen album here</a>
+                            <p class="the-best-album-song">The best song: <br>SICKO MODE(ft. Drake)</p>
+                            <audio src="./Travis Scott feat. Drake - Sicko Mode.mp3" controls class="the-best-audio"></audio>
+                        </div>
+                         <div class="mini-box">
+                            <a target="_blank" style="max-width: 300px;" class="slide-text" href="https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY">TRAVIS SCOTT</a>
+                            <img class="travis1" src="./travis1.jpeg" alt="">
+                        </div>
+                        <button class="best-button-open" style="right: 39%; top: 43.5%;" onclick="document.querySelector('.best-modal').showModal()">Listen more <br>music here!</button>
+                            <dialog class="best-modal">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/36XUakDbykd9G6uOSKJ47r?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                                <button class="best-button-close" onclick="document.querySelector('.best-modal').close()">
+                                    X
+                                </button>
+                            </dialog> 
+                        
+                        <div class="the-latest">
+                            <p class="the-latest-text">UTOPIA</p>
+                            <img src="./cover.jpg" alt="" class="the-latest-photo">
+                            <a target="_blank" href="https://open.spotify.com/album/18NOKLkZETa4sWwLMIm0UZ" class="the-best-album-link">Listen album here</a>
+                            <p class="the-best-album-song">The best song: <br> Til Further Notice(ft. 21 Savage)</p>
+                            <audio src="./Travis_Scott_TIL_FURTHER_NOTICE_21_Savage_James_Blake.mp3" controls class="the-latest-audio"></audio>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <img src="./travis3.jpeg" style="margin-top: 10px;" alt="" class="travis2">
+                        <div class="the-best-song">
+                            <p class="the-best-song-text">STOP TRYING TO BE GOD</p>
+                            <img src="./astroworld.jpeg" alt="" class="the-best-song-photo">
+                            <audio controls src="./Travis_Scott_-_Stop_Trying_To_Be_God-sweethiphop.com.mp3" class="the-best-song-audio"></audio> 
+                        </div>
+                        <img src="./travis4.jpeg" style="margin-top: 10px;" alt="" class="travis3">
+                    </div>
+                </div>        
+            </div>
+
+            <div class="slide">
+                <div class="big-box" style="background-image: url(./bg_drake.jpeg);">
+                    <div class="box1">
+                            <div class="the-best">
+                            <p class="the-best-text">Scorpion</p>
+                            <img src="./scorpion.png" alt="" class="the-best-photo">
+                            <a target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi_vIvIioCCAxVgg_0HHTdUBE8QFnoECAoQAQ&url=https%3A%2F%2Fopen.spotify.com%2Falbum%2F1ATL5GLyefJaxhQzSPVrLX&usg=AOvVaw33huKXdyLsuR8olAU_trCF&opi=89978449" class="the-best-album-link">Listen album here</a>
+                            <p class="the-best-album-song">The best song: <br>God's Plan</p>
+                            <audio src="./Drake God's Plan.mp3" controls class="the-best-audio"></audio>
+                        </div>
+                         <div class="mini-box">
+                            <a target="_blank" class="slide-text" href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4">DRAKE</a>
+                            <img class="travis1" src="./drake1.jpeg" alt="">
+                        </div>
+                        <button class="best-button-open" style="right: -61%; top: 43.5%;" onclick="document.querySelector('.best-modal').showModal()">Listen more <br>music here!</button>
+                            <dialog class="best-modal">
+                                        modal
+                                <button class="best-button-close" onclick="document.querySelector('.best-modal').close()">
+                                    X
+                                </button>
+                            </dialog>
+                        <div class="the-latest">
+                            <p class="the-latest-text">For All The Dogs</p>
+                            <img src="./fatd.webp" alt="" class="the-latest-photo">
+                            <a target="_blank" href="https://open.spotify.com/album/4czdORdCWP9umpbhFXK2fW" class="the-best-album-link">Listen album here</a>
+                            <p class="the-best-album-song">The best song: <br> First Person Shooter(ft. J.Cole)</p>
+                            <audio src="./Drake First Person Shooter (Feat. J. Cole).mp3" controls class="the-latest-audio"></audio>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <img src="./drake2.webp" alt="" class="travis2">
+                        <div class="the-best-song">
+                            <p class="the-best-song-text">One Dance</p>
+                            <img src="./views.jpeg" alt="" class="the-best-song-photo">
+                            <audio controls src="./drake-feat_-wizkid-kyla-one-dance.mp3" class="the-best-song-audio"></audio> 
+                        </div>
+                        <img src="./drake-pictures-yktyeiash74fyfdb.jpg" alt="" class="travis3">
+                    </div>
+                </div> 
+            </div>
+            <div class="slide">
+                <div class="big-box" style="background-image: url('./bg_savage.jpeg');">
+                    <div class="box1">
+                            <div class="the-best">
+                            <p class="the-best-text">I am > i was</p>
+                            <img src="./i_am_i_was.jpeg" alt="" class="the-best-photo">
+                            <a target="_blank" href="https://open.spotify.com/album/007DWn799UWvfY1wwZeENR" class="the-best-album-link">Listen album here</a>
+                            <p class="the-best-album-song">The best song: <br> ball w/o you</p>
+                            <audio src="./21_Savage_ball_w_o_you.mp3" controls class="the-best-audio"></audio>
+                        </div>
+                         <div class="mini-box">
+                            <a target="_blank" class="slide-text" href="https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY">21 SAVAGE</a>
+                            <img class="travis1" src="./savage1.jpeg" alt="">
+                        </div>
+                        <button class="best-button-open" style="right: -161%; top: 43.5%;" onclick="document.querySelector('.best-modal').showModal()">Listen more <br>music here!</button>
+                            <dialog class="best-modal">
+                                    
+                                <button class="best-button-close" onclick="document.querySelector('.best-modal').close()">
+                                    X
+                                </button>
+                            </dialog>
+                        
+                        <div class="the-latest">
+                            <p class="the-latest-text">Her Loss</p>
+                            <img src="./her_loss.jpeg" alt="" class="the-latest-photo">
+                            <a target="_blank" href="https://open.spotify.com/album/5MS3MvWHJ3lOZPLiMxzOU6" class="the-best-album-link">Listen album here</a>
+                            <p class="the-best-album-song">The best song: <br> Circo Loco(ft. Drake)</p>
+                            <audio src="./Drake_21_Savage_-_Circo_Loco_Latestnaijamusic.com.mp3" controls class="the-latest-audio"></audio>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <img src="./savage2.jpeg" alt="" class="travis2">
+                        <div class="the-best-song">
+                            <p class="the-best-song-text">Glock in my Lap</p>
+                            <img src="./savage_mode2.jpeg" alt="" class="the-best-song-photo">
+                            <audio controls src="./21_Savage_x_Metro_Boomin_-_Glock_In_My_Lap.mp3" class="the-best-song-audio"></audio> 
+                        </div>
+                        <img src="./savage3.jpeg" alt="" class="travis3">
+                    </div>
+                </div>        
+            </div>
+        </div>
+        <img src="./guitar.png" class="next" id="next">
+        
+    </div>
+    <div class="slider-controls">
+        <div class="slider-dots">
+            <img src="./travis-dot.webp" class="dot">
+            <img src="./drake-dot.jpeg" class="dot">
+            <img src="./savage-dot.webp" class="dot">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
